@@ -643,6 +643,8 @@ class Maze{
 		/*complete the constructor so that the maze is 
 		 * a deep copy of the input parameter. 
 		 */
+		
+	    this.maze = new String[maze.length][maze[0].length];
 		int x = 0;
 	    while (x < maze.length){
 	    	int y = 0;
